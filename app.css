@@ -1,0 +1,82 @@
+
+/* Element | http://localhost:8000/# */
+
+#button {
+  font-size: 1.3rem;
+}
+
+
+#Selector {
+  font-size: 23px;
+}
+
+
+
+button, input, optgroup, select, textarea {
+  /* margin: 0; */
+  margin: 0px;
+  padding: 8px;
+}
+
+.btn {
+  /* border: 1px solid transparent; */
+  /* padding: .375rem .75rem; */
+  /* line-height: 1.5; */
+  border: 0px solid transparent;
+  padding: 18px;
+  line-height: 0px;
+}
+
+.btn-primary {
+  /* background-color: #007bff; */
+  background-color: #8ada78;
+}
+
+.jumbotron > label:nth-child(4) {
+ font-size: 21px;
+}
+
+textarea {
+ overflow: auto;
+ resize: vertical;
+ width: 100%;
+}
+.table td, .table th {
+	padding: .75rem;
+	vertical-align: top;
+	border-top: 1px none  !important;
+}
+
+#last {
+  margin-bottom: 50px;
+}
+
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* bootstrap.min.css | https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css */
+
+body {
+  color: #2B2F33;
+  background-image: url("bg.jpg");
+}
+
+.jumbotron {
+  /* background-color: #e9ecef; */
+  /* border-radius: .3rem; */
+  background: rgb(76, 76,76, .3);
+  border-radius: 0.3rem;
+}
+
+.bg-dark {
+  background: rgb(0, 0,0, .1) !important;
+
+}
+.display-4, .ExplainApi, #Description, #Response, #secretTable {
+color: white;
+}

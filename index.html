@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="app.css">
+  <title>SentimApi</title>
+</head>
+
+<body style="font-size: 1.5rem;">
+  <!-- Just an image -->
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="TextSentiment.png">
+    </a>
+  </nav>
+
+
+
+
+
+
+  <!--Response-->
+
+  <!--Description-->
+
+
+
+
+
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to TextSentiment </h1>
+
+    <p class="ExplainApi">
+      We offer you the ability to analize what people say or write. Using our free service will let you see how negative or positive communication can be through the power of machine learning from
+      from <a href="https://sentim-api.herokuapp.com/">SENTIM-API</a>.
+    </p>
+
+    <hr class="my-4" label="Hello">
+    <textarea name="UserInput" rows="3" cols="80" id="UserInput" placeholder="Type anything in here, or copy and paste. As long as it is in English and each sentence is ended width a period and has a space after the period."></textarea>
+<br>
+    <select id="Selector" class="Selecter" name="">
+      <option value="Generalizer">General</option>
+      <option value="BreakDown">Break Down</option>
+    </select>
+
+    <button type="button" name="button" class="btn btn-primary" id="button">Go!</button>
+    <div id="Description"></div>
+  </div>
+
+  <div class="Response" id="Response"></div>
+
+
+  <br>
+  <div id="secretTable"></div>
+  <body style="font-size: 1.5rem;">
+    <!-- Just an image -->
+    <nav class="navbar navbar-dark bg-dark" id="footer">
+      <a class="navbar-brand" href="#">
+        <a href="#"></a>
+      </a>
+    </nav>
+  <script type="text/javascript" src="app.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -33,7 +33,7 @@ button.addEventListener("click", function() {
         var descriptor1 = "You chose a general analisys. This means we will show you a sentiment score and degree score. Our sentiment score qualifies a your text as being overall positive, negative, or Nuetral. Our degree score quantifies that sentiment from a range of 1, meaning maximum positivity, to -1, meaning maximum negativity. 0 is nuetral."
         var qualifier = "error";
         document.getElementById("Description").innerText = descriptor1;
-        if (degree > .5 || degree < -.5) {
+        if (degree >= .5 || degree <= -.5) {
           qualifier = "very"
         } else if (degree < .5 && degree > -.5) {
           qualifier = "somewhat"
@@ -88,9 +88,9 @@ button.addEventListener("click", function() {
           sentiment.innerHTML = "Sentiment: " + data["sentences"][i]["sentiment"]["type"]
 
           var degree = document.createElement("p");
-          degree.id = "last"
+          degree.id = "last";
           document.getElementById("theDiv").appendChild(degree);
-          degree.innerHTML = "degree: " + data["sentences"][i]["sentiment"]["polarity"]
+          degree.innerHTML = "degree: " + data["sentences"][i]["sentiment"]["polarity"];
 
 
 

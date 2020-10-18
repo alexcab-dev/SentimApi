@@ -74,7 +74,7 @@ body {
 }
 
 .bg-dark {
-  background: rgb(0, 0,0, .1) !important;
+  background: rgb(0, 0,0, .95) !important;
 
 }
 .display-4, .ExplainApi, #Description, #Response, #secretTable {
